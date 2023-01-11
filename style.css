@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'open sans', sans-serif;
+    color: hsl(192, 100%, 9%) !important;
+}
+
+button {
+    background-color: hsl(322, 100%, 66%) !important;
+    border: none!important;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.free {
+    color: hsl(321, 100%, 78%);
+    border: hsl(321, 100%, 78%) 1px solid!important;
+    background-color: transparent !important;
+}
+
+.free:hover {
+    box-shadow: 1px 1px 10px hsl(321, 100%, 78%);
+}
+
+.pill-btn {
+    width: 15rem;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.grow {
+    background-color: #F6FBFF !important;
+}
+
+.foot {
+    background-color: #0D252E;
+}
+
+.foot-btn {
+    border-radius: 5px !important;
+}
+
+.bi:hover {
+    color:  hsl(210, 46%, 46%);
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 8rem !important;
+    }
+
+    .mockup {
+        width: 35rem !important;
+    }
+}
